@@ -91,7 +91,7 @@ grid-area: nav;}
                 padding: 1rem;
                 color: white;
             grid-area: foorte;}
-body {
+.page {
     display: grid;
     gap: 2px;
     grid-template: 
@@ -101,7 +101,8 @@ body {
     "aside" 100px
     "foorte" 50px / auto;
 }
-@media (min-width: 769px){grid-template:"header header header" 100px
+@media (min-width: 769px){grid-template:
+    "header header header" 100px
     "nav nav nav" 50px
     "main main aside" auto
     "foorte foorte foorte" 50px;}
