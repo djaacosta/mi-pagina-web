@@ -26,7 +26,8 @@ h3 {
 }
 
 
-input[type="text"], input [type="email"]
+input[type="text"], input [type="email"], 
+input[type="number"]
 {
     min-width: 100%;
     min-height: 30px;
@@ -34,7 +35,8 @@ input[type="text"], input [type="email"]
     border-radius: 10px;
     border: 2px red;
 }
-input[type="text"]:hover, input[type="email"]:hover {
+input[type="text"]:hover, input[type="email"]:hover, 
+input[type="numer"] {
     border: 2px rgb(214, 23, 23) solid;
     box-shadow: 5px 5px 10px green;
 }
